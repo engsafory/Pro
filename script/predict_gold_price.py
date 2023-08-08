@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Load the historical gold price data
 file_path = input("Enter the file path of the gold price data: ")
